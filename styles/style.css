@@ -27,30 +27,30 @@ ul {
   padding-top: 25px;
 }
 
-#hero-banner {
-  background-image: url("../images/apple-pie.jpg");
-  height: 80px;
-  width: 100%;
-  background-size: cover;
-  padding: 200px 0 200px 0;
-}
-
-#hero-banner {
-  background-image: url("../images/soup.jpg");
-  height: 80px;
-  width: 100%;
-  background-size: cover;
-  padding: 200px 0 200px 0;
-}
-
-#soup-contain {
+.hero-text {
   text-align: center;
 }
 
-#soup-contain h1 {
+.hero-text h1 {
   color: #FFF;
   font-size: 4rem;
   font-weight: 200;
+}
+
+#hero-banner-apple {
+  background-image: url("../apple-pie/images/apple-pie.jpg");
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  padding: 200px 0 200px 0;
+}
+
+#hero-banner-soup {
+  background-image: url("../french-soup/images/soup.jpg");
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  padding: 200px 0 200px 0;
 }
 
 #content-container {
