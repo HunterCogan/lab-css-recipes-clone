@@ -1,9 +1,92 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0,0,0,.7);
+  font-weight: 200;
+  font-size: 18px;
+}
+
+h1, h2 {
+  all: unset;
+}
+
+p {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.info-img {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#hero-banner {
+  background-image: url("../images/apple-pie.jpg");
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  padding: 200px 0 200px 0;
+}
+
+#hero-banner {
+  background-image: url("../images/soup.jpg");
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  padding: 200px 0 200px 0;
+}
+
+#soup-contain {
+  text-align: center;
+}
+
+#soup-contain h1 {
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+#content-container {
+  padding: 60px 60px;
+}
+
+#intro-contain, #ingredients-contain {
+  margin-bottom: 30px;
+  border-bottom: rgba(0,0,0,.3) solid 2px;
+  padding-bottom: 15px;
+}
+
+#intro-contain p {
+  font-size: 1.2rem;
+}
+
+#intro-info-contain {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#intro-info-contain img {
+  height: 50px;
+}
+
+#ingredient-info-contain img {
+  height: 70px;
+}
+
+#ingredient-list h2, #directions-contain h2{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0,0,0,.8);
+}
+
+#directions-list {
+  margin-top: 1em;
+  padding-left: 20px;
 }
